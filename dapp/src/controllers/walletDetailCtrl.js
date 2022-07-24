@@ -8,6 +8,7 @@
         // Javascript doesn't have a deep object copy, this is a patch
         // Convert $routeParams.address to checksum address, users might be using lowercase addresses
         var walletCopy = Wallet.getAllWallets()[Web3Service.toChecksumAddress($routeParams.address)];
+        walletCopy.tokens = {};
 
         if (!walletCopy) {
           // redirect to 404
@@ -278,9 +279,9 @@
               $scope.interval = $interval($scope.updateParams, 15000);
 
               // Handle migration modal
-              if (!walletCopy.safeMigrated) {
-                $scope.showSafeMigrationModal();
-              }
+              // if (!walletCopy.safeMigrated) {
+              //   $scope.showSafeMigrationModal();
+              // }
             });
         }
         startup();
