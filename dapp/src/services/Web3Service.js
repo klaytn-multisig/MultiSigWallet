@@ -246,11 +246,7 @@
                   Wallet.getGasPrice().then(function (gasPrice) {
                     $scope.gasLimit = options.gas;
                     $scope.minimumGasLimit = options.gas;
-                    var defaultGas = gasPrice
-                    if (gasPrice < 250000000000) {
-                      defaultGas = 250000000000
-                    }
-                    $scope.gasPrice = defaultGas / 1e9;
+                    $scope.gasPrice = 250000000000 / 1e9;
                     $scope.calculateFee();
                   }).catch(function (error) {
                     cb(error);
