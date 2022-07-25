@@ -45,6 +45,12 @@
             else if (data.chain == 'privatenet') {
               factoryAddress = $scope.config.walletFactoryAddresses['privatenet'];
             }
+            else if (data.chain == 'baobab') {
+              factoryAddress = $scope.config.walletFactoryAddresses['baobab'];
+            }
+            else if (data.chain == 'kmainnet') {
+              factoryAddress = $scope.config.walletFactoryAddresses['kmainnet'];
+            }
             else {
               factoryAddress = $scope.config.walletFactoryAddresses['mainnet'];
             }
