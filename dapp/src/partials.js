@@ -315,7 +315,7 @@ angular.module('multiSigWeb').run(['$templateCache', function($templateCache) {
     "  <div class=\"panel-body\">\n" +
     "    <div class=\"row\">\n" +
     "      <div class=\"col-md-6\">\n" +
-    "        App Version {{ appVersion }}\n" +
+    "        App Version {{ appVersion }} (Updated for klaytn)\n" +
     "      </div>\n" +
     "    </div>\n" +
     "  </div>\n" +
