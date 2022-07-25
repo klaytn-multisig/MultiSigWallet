@@ -12,7 +12,7 @@ var txDefaultOrig =
   },
   gasLimit: 3141592,
   gasPrice: 18000000000,
-  ethereumNode: "https://public-node-api.klaytnapi.com/v1/cypress",
+  ethereumNode: "https://en.klayfi.finance",
   connectionChecker: {
     method : "OPTIONS",
     url : "https://www.google.com",
@@ -59,7 +59,7 @@ var txDefault = {
       name: "Remote Klaytn Baobab"
     },
     {
-      url : "https://public-node-api.klaytnapi.com/v1/cypress",
+      url : "https://en.klayfi.finance",
       name: "Remote Klaytn Mainnet"
     },
     {
