@@ -340,9 +340,9 @@
                 data.walletFactoryAddress = txDefault.walletFactoryAddresses["baobab"].address;
               }
               else if (block && block.hash == "0xc72e5293c3c3ba38ed8ae910f780e4caaa9fb95e79784f7ab74c3c262ea7137e") {
-                data.chain = "kmainnet";
+                data.chain = "klaytn";
                 data.etherscan = "https://scope.klaytn.com";
-                data.walletFactoryAddress = txDefault.walletFactoryAddresses["kmainnet"].address;
+                data.walletFactoryAddress = txDefault.walletFactoryAddresses["klaytn"].address;
               }
               else {
                 data.chain = "privatenet";

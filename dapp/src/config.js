@@ -27,7 +27,7 @@ var txDefaultOrig =
   wallet: "injected",
   defaultChainID: 8217,
   // Mainnet
-  walletFactoryAddress: "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
+  walletFactoryAddress: "0xC704180d374857cb0F3B0572E132E414753Ed92d",
   tokens: [
   ]
 };
@@ -88,9 +88,9 @@ var txDefault = {
       name: 'Klaytn Baobab',
       address: '0xd79426bcee5b46fde413ededeb38364b3e666097'
     },
-    'kmainnet': {
+    'klaytn': {
       name: 'Klaytn Mainnet',
-      address: '0xd79426bcee5b46fde413ededeb38364b3e666097'
+      address: '0xC704180d374857cb0F3B0572E132E414753Ed92d'
     },
     'privatenet': {
       name: 'Privatenet',
