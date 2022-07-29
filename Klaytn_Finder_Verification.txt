@@ -1,0 +1,14 @@
+Klaytn Finder Verification Detail
+
+* 지갑주소는 지갑 컨트렉을 디플로이 한 주소와 일치해야 함.
+
+Contract Address: 새로 디플로이된 지갑 컨트렉트 주소 입력
+Compiler Version: 0.4.16+commit.d7661dd9
+Open Source License Type: No License
+Optimization: True
+Optimization Runs: 200
+Source Code: Factory_flatten.sol
+ABI-encoded constructor arguments: 아무 값도 입력하지 말것
+EVM version: Default (compiler default)
+나머지는 사용자 조건에 맞추어 입력
+Sign and Submit
